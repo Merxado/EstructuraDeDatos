@@ -5,4 +5,7 @@
   <Folder Name="/02/">
     <Project Path="LargestNumber/LargestNumber.csproj" Id="95fbf5a1-a7a6-40a4-98be-836cfde233bd" />
   </Folder>
+  <Folder Name="/03/">
+    <Project Path="OrderThreeNumbers/OrderThreeNumbers.csproj" Id="53d6da5c-0dd5-49a8-9448-7d2022a996bd" />
+  </Folder>
 </Solution>
