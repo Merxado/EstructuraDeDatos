@@ -13,3 +13,7 @@ C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\
 C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\obj\Debug\net8.0\IsOddOrNot.pdb
 C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\obj\Debug\net8.0\IsOddOrNot.genruntimeconfig.cache
 C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\obj\Debug\net8.0\ref\IsOddOrNot.dll
+C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\bin\Debug\net8.0\CodesShare.dll
+C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\bin\Debug\net8.0\CodesShare.pdb
+C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\obj\Debug\net8.0\IsOddOrNot.csproj.AssemblyReference.cache
+C:\Repositorio Estructura de Datos\EstructuraDeDatos\EstructuraDatos\IsOddOrNot\obj\Debug\net8.0\IsOddOrNot.csproj.Up2Date

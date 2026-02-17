@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "IsOddOrNot/1.0.0": {
+        "dependencies": {
+          "CodesShare": "1.0.0"
+        },
         "runtime": {
           "IsOddOrNot.dll": {}
+        }
+      },
+      "CodesShare/1.0.0": {
+        "runtime": {
+          "CodesShare.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "IsOddOrNot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodesShare/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

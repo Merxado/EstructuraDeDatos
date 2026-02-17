@@ -1,28 +1,32 @@
-﻿var numberString = String.Empty;
+﻿using CodesShare;
+
+var answer = string.Empty;
+var options = new List<string> { "si", "no" };
 do
 {
-    Console.Write("Ingrese un numero o la palabra 'Salir' para finalizar: ");
-    numberString = Console.ReadLine();
-    if (numberString!.ToLower() == "salir")
+    
+    var number = Extensions.GetInt("Ingrese un numero entero diferente de cero: ");
+    if (number == 0)
     {
-        Console.WriteLine("Saliendo del programa...");
-        break;
+        continue;
     }
-    var numberInt = 0;
-    if (int.TryParse(numberString, out numberInt))
+
+    if (number % 2 == 0)
     {
-        if (numberInt % 2 == 0)
-        {
-            Console.WriteLine($"El numero {numberString} es par");
-        }
-        else
-        {
-            Console.WriteLine("El numero es impar");
-        }
+        Console.WriteLine($"El numero {number} es par");
     }
     else
     {
-        Console.WriteLine($"El valor {numberString}, ingresado no es un numero valido");
+        Console.WriteLine($"El numero {number}, es impar");
     }
-} while (numberString.ToLower() != "salir");
+
+    do
+    {
+        answer = Extensions.GetString("¿Desea ingresar otro numero? (si/no): ", options);
+        
+    } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
+
+} while (answer!.Equals("si", StringComparison.CurrentCultureIgnoreCase));
+
+Console.WriteLine("Fin del ejercicio, gracias por participar");
 

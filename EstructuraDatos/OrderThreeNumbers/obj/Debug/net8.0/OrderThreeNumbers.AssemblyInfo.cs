@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderThreeNumbers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf5fe35da501fe37733afa832f0f698242d88e00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+059042744d2888c23171d5cad3bc1acb01e82ecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderThreeNumbers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderThreeNumbers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
